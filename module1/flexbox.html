@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		*
+		{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		section
+		{
+			width: 100%;
+		}
+		section div
+		{
+			flex-basis: 30%; /* every div will be 30% */
+			border: 1px solid black;
+			padding: 20px;
+		}
+		.flex1
+		{
+			flex: 2;
+			/*
+			double of others two
+			*/
+			background: red;
+		}
+		.flex2
+		{
+			flex: 1;
+			background: yellow;
+			
+		}
+		.flex3
+		{
+			flex: 1;
+			background: green;
+			
+		}
+
+		@media(min-width: 768px){
+			section
+		{
+			
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}}
+
+	</style>
+</head>
+<body>
+	<section>
+		<div class="flex1">
+			one 
+
+			my name is prerna bhatra.u am from rajsthan ,sikar.i am pursuing btech cse  final year  from lovely professional university .and my key skills are html,css ,js, react js ,mongodb and node js .i am a full stack developer an my intsret is in space tech and createing tech blogs.
+		</div>	
+		<div class="flex2">
+			two
+			my name is prerna bhatra.u am from rajsthan ,sikar.i am pursuing btech cse  final year  from lovely professional university .and my key skills are html,css ,js, react js ,mongodb and node js .i am a full stack developer an my intsret is in space tech and createing tech blogs.
+		</div>	
+		<div class="flex3">
+			three
+			my name is prerna bhatra.u am from rajsthan ,sikar.i am pursuing btech cse  final year  from lovely professional university .and my key skills are html,css ,js, react js ,mongodb and node js .i am a full stack developer an my intsret is in space tech and createing tech blogs.
+			
+		</div>	
+
+	</section>
+</body>
+</html>
